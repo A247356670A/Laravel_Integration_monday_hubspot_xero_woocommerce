@@ -1,0 +1,31 @@
+  "payload": 
+  {
+    "webhookUrl": "https://automations-au.monday.com/apps-events/7372537",
+    "subscriptionId": 7372537,     
+    "inputFields": { 
+      "boardId": 1882411231 
+      }, 
+    "recipeId": 30264567, 
+    "integrationId": 7190021 
+    }
+
+
+    {
+    "accountId": 23786531, // user account ID
+    "userId": 61724197, // user ID
+    "aud": "https://6012-115-64-175-197.ngrok-free.app/monday/subscribe", // which URL was meant to be called
+    "exp": 1719201854, 
+    "iat": 1719201804 
+    }
+
+        curl -X POST https://automations-au.monday.com/apps-events/7376021 \
+    -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOjIzNzg2NTMxLCJ1c2VySWQiOjYxNzI0MTk3LCJhdWQiOiJodHRwczovLzYwMTItMTE1LTY0LTE3NS0xOTcubmdyb2stZnJlZS5hcHAvbW9uZGF5L3N1YnNjcmliZSIsImV4cCI6MTcxOTIwNDQxOSwic2hvcnRMaXZlZFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnphRzl5ZEV4cGRtVmtJanAwY25WbExDSjFhV1FpT2pZeE56STBNVGszTENKaFkzUnBaQ0k2TWpNM09EWTFNekVzSW1GcFpDSTZNVEF4TlRVeE5qTXNJbUZoYVNJNk1qVTBPVFF6TENKeVoyNGlPaUpoY0hObE1pSXNJbVY0Y0NJNk1UY3hPVEl3TkRReE9Td2lhV0YwSWpveE56RTVNakEwTVRFNWZRLnNZTDBjRGhlaFdIdi0zMTFab1lWNlAzWUpXTmY2VlJ0ZmhJSTJVWlVCelUiLCJpYXQiOjE3MTkyMDQxMTl9.pUp1zqxUI1huwa8NLdVtVum8yWiS94W73YjWSyJ-YvI" \
+    -H "Content-Type: application/json" \
+    -H "X-API-VERSION: 2024-04" \
+    -d '{
+        "trigger": {
+            "outputFields": { 
+
+            }
+        }
+    }'
