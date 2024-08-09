@@ -54,7 +54,7 @@ const App = () => {
       )}
       {location ? 
       <div style={{width: 500, height: 500}} >
-        <APIProvider apiKey={'AIzaSyDEvfokUpIzDIGOAsRln0mZqdzYTywWn-o'}>
+        <APIProvider apiKey={''}>
           <Map zoom={15} center={location} />
         </APIProvider>
       </div>
